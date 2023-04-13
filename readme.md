@@ -1,6 +1,6 @@
 ## **Clone Source code**
 ```bash
-will update
+git clone https://github.com/PMKhai/clean-collection-mongoDB.git
 ```
 ## **INSTALLATION**
 At the root folder
