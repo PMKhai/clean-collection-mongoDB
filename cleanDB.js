@@ -14,6 +14,8 @@ async function main(){
     await cleanCollection(db, 'sender_question');
     await cleanCollection(db, 'sender_record_question');
     await cleanCollection(db, 'receiver_record_answer');
+    await cleanCollection(db, 'receiver_record_follow_up');
+    await cleanCollection(db, 'sender_record_follow_up');
 
   } catch (e) {
     console.error(e);
